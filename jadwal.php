@@ -203,10 +203,7 @@ $dosen = koneksi()->query("SELECT * FROM tabel_dosen")->fetchAll();
                         <label for="edit-jam" class="form-label">Jam</label>
                         <input type="text" class="form-control" id="edit-jam" name="jam" required>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-warning">Update</button>
+                    <button type="submit" class="btn btn-primary">Simpan</button>
                 </div>
             </form>
         </div>

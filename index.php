@@ -185,7 +185,7 @@ $allDosen = $stmt->fetchAll();
                         <label for="editTelepon" class="form-label">Telepon</label>
                         <input type="number" class="form-control" id="editTelepon" name="telepon" required>
                     </div>
-                    <button type="submit" name="update" class="btn btn-primary">Update</button>
+                    <button type="submit" name="update" class="btn btn-primary">Simpan</button>
                 </form>
             </div>
         </div>
